@@ -86,7 +86,17 @@ Go to `http://jenkins_server_ip_address`
 
 ### Create Configuration File
 
-`sudo vi /etc/nginx/sites-available/jenkins.
+`sudo vi /etc/nginx/sites-available/jenkins`
+
+We will be using a local DNS server because our solution is tested in a local environment. 
+We don't want to be using IP addresses, so we'll set up our own DNS server.
+
+Now let's set up the local DNS server
+
+We're going to configure Dnsmasq dns server on an Ubuntu server 22.04 box
+
+Make sure the IP address is statically set.
+
 
 
 
